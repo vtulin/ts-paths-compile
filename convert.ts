@@ -25,7 +25,7 @@ console.log(`\nList of .js files in output folder:`, psJsFile);
 // 4 STEP
 /// Replacing aliases in .js files content to relative paths.
 /// As soon as our "paths" is relative to output folder (see STEP 2),
-/// and "psJsFile" list of js file is also relative to output folder,
+/// and "psJsFile" list of js file is also relative to output folder (see STEP 3),
 /// we may find relative path from one to another.
 psJsFile.forEach(_sJsFile => {
   let sContent: string = fs.readFileSync(_sJsFile).toString();
