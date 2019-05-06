@@ -51,9 +51,9 @@ psJsFile.forEach(_sJsFile => {
 /** Converts typescript compilerOptions paths to relative paths from output folder.
  * It just removes the trailing "/*" and adds output folder as prefix of the path.
  * For example:
- *   "@alias/*": [ "./functions/*" ]
+ *   "@somealias/*": [ "./functions/*" ]
  * converts to
- *   "@alias": "dst/functions"
+ *   "@somealias": "dst/functions"
  * @param _paths Original paths.
  * @param _outDir Output folder.
  */
