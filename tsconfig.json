@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": [ "dom", "es6", "esnext" ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@alias/*": [ "./functions/*" ]
+    },
+    "outDir": "./dst"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": false
+}

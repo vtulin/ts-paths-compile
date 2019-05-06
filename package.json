@@ -1,0 +1,25 @@
+{
+  "name": "ts-paths-compile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && ts-node convert && node dst/src/some/where/deep/inside/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtulin/ts-paths-compile.git"
+  },
+  "author": "Vladimir Tulin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vtulin/ts-paths-compile/issues"
+  },
+  "homepage": "https://github.com/vtulin/ts-paths-compile#readme",
+  "devDependencies": {
+    "@types/node": "^12.0.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  }
+}

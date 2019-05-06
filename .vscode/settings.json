@@ -1,0 +1,8 @@
+{
+  "editor.tabSize": 2,
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "cSpell.language": "en,ru",
+  "tsimporter.preferRelative": true,
+  "editor.codeActionsOnSave": { "source.fixAll.tslint": true },
+  "tslint.configFile": "tslint.json"
+}
